@@ -1,10 +1,19 @@
 /* NAV */
+/* cambiamenti boostrap */
+.navbar{
+  margin-bottom: 0;
+}
+.navbar-default{
+  background-image: none;
+  background-color: #2C3E50;
+  border: none;
+  box-shadow: none
+}
 .navbar-default{
   border-radius: 0;
   border: 0;
 }
-.container-fluid{
-  background-color: #2C3E50;
+.container{
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -12,29 +21,103 @@
   border: 0;
   max-width: 590px;
 }
-.container-fluid>.navbar-header{
+.container>.navbar-header{
   margin: 0 auto;
-}/* TODO: controllare perche quando ci si clicca sopra cambi cosi tanto di colore */
+}
 .navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
     color: #fff;
     text-transform: uppercase;
     font-weight: bold;
 }
-/* NAV */
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color: #fff;
+}
+/* cambiamenti boostrap */
 
+/* TODO: si potrebbe modificare il font-size come extra */
 @media all and (min-width: 768px) {
-  /* TODO: volevo fare in modo che si rimpicciolisse tutto come fatto senza media query ma non si puo fare perche i link sono in un collapse e quindi il margin auto funziona solo sui linck e non sulla scritta a sinistra, per farlo bisognerebbe cambiare radicalmente il html cosa che lascio piu avanti se avro tempo */
-  /* .navbar-collapse{
+   .container{
     max-width: 768px;
+    margin: 0 auto;
   }
-  .container-fluid>.navbar-collapse{
+}
+@media all and (min-width: 1200px){
+  /* header .container-fluid{
+    max-width: 1100px;
     margin: 0 auto;
   } */
+}
+/* NAV */
+
+/* MAIN */
+.stellina .linea{
+  margin-top: 30px;
+  display: inline-block;
+  height: 5px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 2.5px;
+}
+.stellina .stella{
+  height: 30px;
+  position: relative;
+  bottom: 25px;
+  display: inline-block;
+  padding: 10px;
+}
+.stellina .stella span{
+  font-size: 40px;
+  display: inline-block;
+}
+/* START */
+#start{
+  text-align: center;
+  background-color: #1ABC9C;
+  padding: 40px 10px;
+  color: white;
+}
+#start .box{
+}
+#start .box img{
+  width: 100%;
+  max-width: 200px;
+}
+#start .box h1{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#start .box .stellina .linea{
+  background-color: white;
+}
+
+#start .box .stellina .stella{
+  background-color: #1ABC9C;
+}
+/* START */
+/* PORFTFOLIO */
+#portfolio{
+  padding: 40px 10px;;
+  text-align: center;
 
 }
-@media all and (width:dexstop) {
-  header .container-fluid{
-    padding-left: 10%;
-    padding-right: 10%;
-  }
+#portfolio h1{
+  text-transform: uppercase;
+  font-weight: bold;
 }
+#portfolio .stellina .linea{
+  background-color: #000;
+}
+#portfolio .stellina .stella{
+  background-color: white;
+}
+#portfolio img{
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+#portfolio .row .col-12:nth-child(n+1){
+  margin: 15px 0;
+}
+/* PORFTFOLIO */
+
+/* MAIN */
