@@ -1,0 +1,40 @@
+/* NAV */
+.navbar-default{
+  border-radius: 0;
+  border: 0;
+}
+.container-fluid{
+  background-color: #2C3E50;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar-header{
+  border: 0;
+  max-width: 590px;
+}
+.container-fluid>.navbar-header{
+  margin: 0 auto;
+}/* TODO: controllare perche quando ci si clicca sopra cambi cosi tanto di colore */
+.navbar-default .navbar-brand, .navbar-default .navbar-nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/* NAV */
+
+@media all and (min-width: 768px) {
+  /* TODO: volevo fare in modo che si rimpicciolisse tutto come fatto senza media query ma non si puo fare perche i link sono in un collapse e quindi il margin auto funziona solo sui linck e non sulla scritta a sinistra, per farlo bisognerebbe cambiare radicalmente il html cosa che lascio piu avanti se avro tempo */
+  /* .navbar-collapse{
+    max-width: 768px;
+  }
+  .container-fluid>.navbar-collapse{
+    margin: 0 auto;
+  } */
+
+}
+@media all and (width:dexstop) {
+  header .container-fluid{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
