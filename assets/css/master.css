@@ -76,21 +76,20 @@
   padding: 40px 10px;
   color: white;
 }
-#start .box{
+#start .card{
 }
-#start .box img{
+#start .card img{
   width: 100%;
   max-width: 200px;
 }
-#start .box h1{
+#start .card h1{
   text-transform: uppercase;
   font-weight: bold;
 }
-#start .box .stellina .linea{
+#start .card .stellina .linea{
   background-color: white;
 }
-
-#start .box .stellina .stella{
+#start .card .stellina .stella{
   background-color: #1ABC9C;
 }
 /* START */
@@ -98,7 +97,6 @@
 #portfolio{
   padding: 40px 10px;;
   text-align: center;
-
 }
 #portfolio h1{
   text-transform: uppercase;
@@ -118,6 +116,49 @@
 #portfolio .row .col-12:nth-child(n+1){
   margin: 15px 0;
 }
+/* remove boostrap */
+.container{
+  max-width: none;
+}
+/* remove boostrap */
+@media all and (min-width: 768px) {
+  #portfolio img{
+    max-width: 350px;
+  }
+}
+@media all and (min-width: 992px) {
+  #portfolio img{
+    max-width: 275px;
+  }
+}
+@media all and (min-width: 1170px) {
+  #portfolio img{
+    max-width: 335px;
+  }
+}
 /* PORFTFOLIO */
+/* ABOUT */
+#about{
+  padding: 40px 10px;;
+  text-align: center;
+  background-color: #1ABC9C;
+  color: #fff;
+}
+#about h1{
+  text-transform: uppercase;
+  font-weight: bold;  
+}
+#about .card .stellina .linea{
+  background-color: white;
+}
+#about .card .stellina .stella{
+  background-color: #1ABC9C;
+  color: white;
+}
+#about .card p{
+font-size: 20px;
+text-align: left;
+}
 
+/* ABOUT */
 /* MAIN */
