@@ -73,7 +73,7 @@
 #start{
   text-align: center;
   background-color: #1ABC9C;
-  padding: 40px 10px;
+  padding: 150px 10px 40px 10px;
   color: white;
 }
 #start .card{
@@ -116,6 +116,24 @@
 #portfolio .row .col-12:nth-child(n+1){
   margin: 15px 0;
 }
+#portfolio .my-bg-green{
+  transition: background 300ms;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+#portfolio .my-bg-green:hover{
+  background-color: rgba(26, 188, 156, 0.5);
+  border-radius: 10px;
+}
+
+#portfolio .card{
+  position: relative;
+  display: inline-block;
+}
 /* remove boostrap */
 .container{
   max-width: none;
@@ -146,7 +164,7 @@
 }
 #about h1{
   text-transform: uppercase;
-  font-weight: bold;  
+  font-weight: bold;
 }
 #about .card .stellina .linea{
   background-color: white;

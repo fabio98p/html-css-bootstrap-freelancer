@@ -15,8 +15,9 @@
 </head>
   <body>
     <header>
+      <!-- TODO: la navbar deve essere fixed top -->
       <!-- TODO: nel cambio di dimensione si allunga la nav e si ingrandisce il testo -->
-      <nav class="navbar navbar-default">
+      <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -71,10 +72,15 @@
               </div>
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
-              <img src="./assets/img/cabin.png" alt="cabin">
+              <div class="card">
+                <img src="./assets/img/cabin.png" alt="cabin">
+                <div class="my-bg-green"></div>
+              </div>
             </div>
+
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
               <img src="./assets/img/cake.png" alt="cake">
+              <!-- <div class="my-bg-green"></div> -->
             </div>
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
               <img src="./assets/img/circus.png" alt="circus">
@@ -119,9 +125,8 @@
       </div>
     </main>
 
-
-
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
