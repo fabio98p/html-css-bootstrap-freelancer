@@ -207,10 +207,11 @@ text-align: left;
 
 /* button */
 .my_btn_default{
-  padding: 15px;
+  padding: 15px 25px;
   color: white;
   background-color: #1ABC9C;
   border: 2px solid white;
+  border-radius: 10px;
   font-size: 20px;
   transition: all 300ms;
   margin-top: 30px;
@@ -230,6 +231,7 @@ text-align: left;
 textarea{
   width: 100%;
   margin-top: 40px;
+
 }
 #contact_me .container{
   width: 100%;
@@ -241,7 +243,6 @@ textarea{
   font-size: 25px
 }
 #contact_me input{
-  border-bottom: 1px solid lightgrey;
   padding: 50px 0;
 }
 
