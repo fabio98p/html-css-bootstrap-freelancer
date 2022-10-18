@@ -4,6 +4,9 @@ h1{
     text-transform: uppercase;
   font-weight: bold;
 }
+.pointer{
+    cursor: pointer;
+}
 /* stellina */
 .stellina .linea{
   margin-top: 30px;
@@ -62,7 +65,6 @@ h1{
 }
 /* cambiamenti boostrap */
 
-/* TODO: si potrebbe modificare il font-size come extra */
 @media all and (min-width: 768px) {
   .navbar .container{
     max-width: 768px;
@@ -223,7 +225,6 @@ text-align: left;
 /* button */
 /* ABOUT */
 /* CONTACT ME */
-/* TODO: sistemare i bordi e il bordo della textarea che deve essere molto piu basso */
 #contact_me .form-group{
   margin-bottom: 0px;
   border-bottom: 1px solid lightgrey;
